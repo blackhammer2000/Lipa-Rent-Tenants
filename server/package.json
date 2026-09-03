@@ -1,0 +1,30 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "a server for liparent-tenants portal.",
+  "homepage": "https://github.com/blackhammer2000/Lipa-Rent-Tenants#readme",
+  "bugs": {
+    "url": "https://github.com/blackhammer2000/Lipa-Rent-Tenants/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blackhammer2000/Lipa-Rent-Tenants.git"
+  },
+  "license": "ISC",
+  "author": "Samuel Waweru",
+  "type": "commonjs",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server.js"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "joi": "^18.2.8",
+    "jsonwebtoken": "^9.0.3",
+    "mongoose": "^9.9.4"
+  },
+  "devDependencies": {}
+}
