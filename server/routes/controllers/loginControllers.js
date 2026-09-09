@@ -1,3 +1,5 @@
-const loginController = {
+const loginControllers = {
   login: (req, res) => {},
 };
+
+module.exports = loginControllers;
